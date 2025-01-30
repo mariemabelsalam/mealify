@@ -204,11 +204,17 @@ a {
     order: -1;
 }
 
-.btn1 a {
+.book-anc a {
     color: white;
 }
+.watch-anc .tex-black , .watch-anc i {
+    color: black;
+}
+.watch-anc .coon .icon-anc i  {
+    font-size: 16px;
+}
 
-.btn1 {
+.book-anc {
     background-color: var(--fourth-color);
     margin-right: 30px;
     border: var(--bordr-one);
@@ -218,36 +224,13 @@ a {
     border-top-right-radius: 20px;
 }
 
-.btn2 a {
-    color: black;
-}
-
-.btn2 {
-    border: var(--bordr-one);
-    padding: 15px 25px;
-}
 
 .section-1 i {
     font-size: var(--icon-font);
 }
 
-.btn2 a {
-    font-weight: var(--secondary-font-weight);
-    font-family: var(--font-three);
-    transition: all 1s;
-}
-
-.section-1 i::before {
-    width: 40px;
-    height: 20px;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border: 5px solid var(--fourth-color);
-    border-right: transparent;
-}
-
-.btn2:hover a {
-    color: var(--fourth-color);
+.watch-anc:hover {
+    color: #CE1212;
 }
 
 h1 {
@@ -619,3 +602,42 @@ form {
     padding-left: 20px;
     background-color: #222222;
 }
+
+.vedio-btn {
+    display: flex;
+    align-items: center;
+} 
+.Vicon {
+    width: 55px;
+    height: 55px;
+    background-image: linear-gradient(to right,red 0% 50% , transparent 50% 100%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.my-ancors {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.coon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coon i {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+}
+.icon-anc {
+    padding: 5px;
+    background:linear-gradient(to right , red 0% 50% , transparent 50% 100%);
+    border-radius: 50%;
+} 
